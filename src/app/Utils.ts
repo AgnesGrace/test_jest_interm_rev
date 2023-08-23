@@ -17,6 +17,7 @@ export class StringUtils {
 export function stringToUpperCase(arg: string) {
   return arg.toUpperCase();
 }
+
 export function getStringInfo(arg: string): stringInfo {
   return {
     lowerCase: arg.toLowerCase(),
